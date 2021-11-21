@@ -115,16 +115,6 @@ private:
 		return true;
 	}
 
-	bool isOver(int max, char* text)
-	{
-		if (atoi(text) > max)
-		{
-			return false;
-		}
-
-		return true;
-	}
-
 	bool isQuit(char* text)
 	{
 		if (strcmp(text, "q") == 0)
